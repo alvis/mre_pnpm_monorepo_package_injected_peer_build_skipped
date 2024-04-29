@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      peer:
+        specifier: workspace:*
+        version: file:../peer
+    dependenciesMeta:
+      peer:
+        injected: true
+
+packages:
+
+  peer@file:../peer:
+    resolution: {directory: ../peer, type: directory}
+
+snapshots:
+
+  peer@file:../peer: {}

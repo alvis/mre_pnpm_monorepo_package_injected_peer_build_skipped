@@ -1,0 +1,14 @@
+{
+  "name": "subpackage",
+  "scripts": {
+    "prepare": "cat node_modules/peer/built"
+  },
+  "dependenciesMeta": {
+    "peer": {
+      "injected": true
+    }
+  },
+  "dependencies": {
+    "peer": "workspace:*"
+  }
+}

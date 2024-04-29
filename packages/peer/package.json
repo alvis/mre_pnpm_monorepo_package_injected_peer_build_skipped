@@ -1,0 +1,6 @@
+{
+  "name": "peer",
+  "scripts": {
+    "prepare": "sh -c 'echo OK > built'"
+  }
+}
